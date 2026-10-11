@@ -77,7 +77,8 @@ export default defineConfig({
           text: 'STM32',
           items: [
             { text: 'VSCode + CMake + GCC ARM 搭建 STM32 开发环境', link: '/embedded/STM32/VSCode + CMake + GCC ARM 搭建STM32开发环境' },
-            { text: '移植 LVGL 8.3', link: '/embedded/STM32/移植LVGL8.3' }
+            { text: '移植 LVGL 8.3', link: '/embedded/STM32/移植LVGL8.3' },
+            { text: 'LVGL v9.3 PC 模拟器环境搭建', link: '/embedded/STM32/LVGL模拟器环境搭建' }
           ]
         }
       ],
