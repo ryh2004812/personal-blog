@@ -94,7 +94,14 @@ export default defineConfig({
           ]
         }
       ],
-      '/other/tools/': [{ text: '常用工具', items: [] }],
+      '/other/tools/': [
+        {
+          text: '常用工具',
+          items: [
+            { text: 'Marker：把 PDF 手册批量转成 Markdown', link: '/other/tools/marker-文档转换' }
+          ]
+        }
+      ],
       // 栏目首页：显示本栏目下的子栏目入口
       '/embedded/': [
         {
